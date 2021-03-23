@@ -55,7 +55,7 @@ class LoginScreen extends StatelessWidget {
               ),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => OTP(_controller.text)));
+                    builder: (context) => OTPScreen(_controller.text)));
               },
               child: Text(
                 "Next",
